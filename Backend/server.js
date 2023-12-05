@@ -388,7 +388,7 @@ app.get('/pdfass/:AssignmentID', (req, res) => {
 });
 
 // Assignment collection
-  //Moiz and sons
+  //Moiz and Fathers
 app.get('/pdf-listgetass', (req, res) => {
   const AssignmentID = req.query.AssignmentID;
   const sql = 'SELECT SubmissionID FROM assignmentsubmission WHERE AssignmentID =(?)';
